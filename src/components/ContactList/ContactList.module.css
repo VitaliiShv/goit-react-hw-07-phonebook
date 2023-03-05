@@ -1,0 +1,35 @@
+.contactList {
+  width: 400px;
+  padding: 40px;
+  background: rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+}
+
+.contactListItem {
+  padding: 0.5rem 1.5rem 1rem;
+  border-radius: 1.5rem;
+  background: peachpuff;
+}
+
+.contactListItem + .contactListItem {
+  margin-top: 1rem;
+}
+::marker {
+  font-weight: 600;
+  color: tomato;
+  font-size: 1.8rem;
+}
+
+.contactListButton {
+  display: inline-block;
+  padding: 7px 16px;
+  color: #03e9f4;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 20px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
